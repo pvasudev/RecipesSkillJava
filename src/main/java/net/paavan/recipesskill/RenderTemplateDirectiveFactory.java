@@ -168,7 +168,17 @@ public class RenderTemplateDirectiveFactory {
         listItem2.setImage(frontImage);
         listItem2.setTextContent(textContent);
 
-        listTemplate1.setListItems(Arrays.asList(listItem1, listItem2));
+        ListTemplate1.ListItem listItem3 = new ListTemplate1.ListItem();
+        listItem3.setToken("ListItem3");
+        listItem3.setImage(frontImage);
+        listItem3.setTextContent(textContent);
+
+        ListTemplate1.ListItem listItem4 = new ListTemplate1.ListItem();
+        listItem4.setToken("ListItem4");
+        listItem4.setImage(frontImage);
+        listItem4.setTextContent(textContent);
+
+        listTemplate1.setListItems(Arrays.asList(listItem1, listItem2, listItem3, listItem4));
 
         RenderTemplateDirective directive = new RenderTemplateDirective();
         directive.setTemplate(listTemplate1);
@@ -232,7 +242,17 @@ public class RenderTemplateDirectiveFactory {
         listItem2.setImage(frontImage);
         listItem2.setTextContent(textContent);
 
-        listTemplate2.setListItems(Arrays.asList(listItem1, listItem2));
+        ListTemplate2.ListItem listItem3 = new ListTemplate2.ListItem();
+        listItem3.setToken("ListItem3");
+        listItem3.setImage(frontImage);
+        listItem3.setTextContent(textContent);
+
+        ListTemplate2.ListItem listItem4 = new ListTemplate2.ListItem();
+        listItem4.setToken("ListItem4");
+        listItem4.setImage(frontImage);
+        listItem4.setTextContent(textContent);
+
+        listTemplate2.setListItems(Arrays.asList(listItem1, listItem2, listItem3, listItem4));
 
         RenderTemplateDirective directive = new RenderTemplateDirective();
         directive.setTemplate(listTemplate2);
